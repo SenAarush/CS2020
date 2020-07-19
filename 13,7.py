@@ -31,12 +31,7 @@ if chk==a:
 else:
     print(a, "is not a perfect number")'''
 
-
-
-
-
-
-
+#WAP to check for prime numbers
 a=int(input("Enter a number: "))
 ctr=0
 for i in range(1,a+1):
