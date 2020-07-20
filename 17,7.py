@@ -27,15 +27,15 @@ elif b>a:
     else:
         print("The given numbers are not twin primes")'''
 
-#WAP to display the series 1+3+5+7+……
-'''a=int(input("Enter the range: "))
+'''#WAP to display the series 1+3+5+7+……
+a=int(input("Enter the range: "))
 no=0
 for i in range(1,a+1,2):
     no+=i
 print(no)'''
 
 #WAP to display the series 2-4+6-8+8-2+……
-'''a=int(input("Enter the number of terms to diplay: "))
+''''a=int(input("Enter the number of terms to diplay: "))
 t=2
 s=0
 for i in range(1,a+1,):
@@ -58,3 +58,19 @@ for k in range(1,a+1):
     sum+=fact
 print(sum)
     
+
+#WAP to find lcm and hcf
+'''a=int(input("Enter an integer"))
+b=int(input("Enter an integer"))
+hcf=1
+if a>b:
+    for i in range(1,a+1):
+        if a%i==0 and b%i==0:
+            hcf=hcf*i
+elif a<b:
+    for i in range(1,b+1):
+        if a%i==0 and b%i==0:
+            hcf=hcf*i
+else:
+    print("Wrong input")
+print(hcf)''''
