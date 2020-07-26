@@ -48,7 +48,7 @@ print(s)'''
 
 
 #WAP to display the series 1!+2!+3!+4!
-a=int(input("Enter the range: "))
+'''a=int(input("Enter the range: "))
 fact=1
 sum=0
 for k in range(1,a+1):
@@ -56,21 +56,4 @@ for k in range(1,a+1):
     for i in range(1,k+1):
         fact*=i
     sum+=fact
-print(sum)
-    
-
-#WAP to find lcm and hcf
-'''a=int(input("Enter an integer"))
-b=int(input("Enter an integer"))
-hcf=1
-if a>b:
-    for i in range(1,a+1):
-        if a%i==0 and b%i==0:
-            hcf=hcf*i
-elif a<b:
-    for i in range(1,b+1):
-        if a%i==0 and b%i==0:
-            hcf=hcf*i
-else:
-    print("Wrong input")
-print(hcf)''''
+print(sum)'''

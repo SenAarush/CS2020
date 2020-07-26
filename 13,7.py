@@ -6,7 +6,6 @@ while a%i==0:
     print(i)
     i+=1'''
 
-
 #WAP to display the even factors of a number
 
 '''a=int(input("Enter a number: "))
@@ -15,7 +14,6 @@ for i in range(1,a+1):
     if a%i==0 and i%2==0:
         print(i)
         ctr+=1
-
 if ctr==0:
     print(a, "has no even factors")'''
     
@@ -32,7 +30,8 @@ else:
     print(a, "is not a perfect number")'''
 
 #WAP to check for prime numbers
-a=int(input("Enter a number: "))
+
+'''a=int(input("Enter a number: "))
 ctr=0
 for i in range(1,a+1):
     if a%i==0:
@@ -40,5 +39,5 @@ for i in range(1,a+1):
 if ctr==2:
     print(a, "is a prime number")
 else:
-    print(a, "is not a prime number")
+    print(a, "is not a prime number")'''
               
