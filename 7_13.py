@@ -1,4 +1,4 @@
-#WAP to display all the factors of a number
+#W AP to display all the factors of a number
 
 '''a = int(input("Enter a number: "))
 for i in range(1,a+1):
